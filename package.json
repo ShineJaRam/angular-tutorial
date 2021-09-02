@@ -1,6 +1,6 @@
 {
   "name": "angular-tour-of-heroes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "version": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -78,6 +79,7 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
+    "standard-version": "^9.3.1",
     "typescript": "~4.3.5"
   }
 }
