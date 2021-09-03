@@ -18,6 +18,8 @@ import { environment } from '../environments/environment';
 import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
 import { userReducer } from './store/user/user.reducer';
 import { UserComponent } from './user/user.component';
+import { AnimalComponent } from './animal/animal.component';
+import { animalReducer } from './store/animal/animal.reducer';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { UserComponent } from './user/user.component';
     DashboardComponent,
     HeroSearchComponent,
     UserComponent,
+    AnimalComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,11 @@ import { UserComponent } from './user/user.component';
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
       dataEncapsulation: false,
     }),
-    StoreModule.forRoot({ count: counterReducer, user: userReducer }),
+    StoreModule.forRoot({
+      count: counterReducer,
+      user: userReducer,
+      animal: animalReducer,
+    }),
     StoreDevtoolsModule.instrument({
       name: '앵귤러 튜토리얼',
       maxAge: 5,
