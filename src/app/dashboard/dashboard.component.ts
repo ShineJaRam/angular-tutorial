@@ -17,7 +17,7 @@ export class DashboardComponent implements OnInit {
     private heroService: HeroService,
     private store: Store<{ count: number }>
   ) {
-    this.count$ = store.select('count');
+    this.count$ = this.store.select('count');
   }
 
   ngOnInit() {

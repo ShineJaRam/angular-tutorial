@@ -12,10 +12,12 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { StoreModule } from '@ngrx/store';
-import { counterReducer } from './counter.reducer';
+import { counterReducer } from './store/counter/counter.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
+import { userReducer } from './store/user/user.reducer';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,7 @@ import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
       dataEncapsulation: false,
     }),
-    StoreModule.forRoot({ count: counterReducer }),
+    StoreModule.forRoot({ count: counterReducer, user: userReducer }),
     StoreDevtoolsModule.instrument({
       name: '앵귤러 튜토리얼',
       maxAge: 5,
