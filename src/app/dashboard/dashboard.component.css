@@ -48,3 +48,7 @@ a {
 a:hover {
   background-color: #000;
 }
+
+.count {
+  text-align: center;
+}
