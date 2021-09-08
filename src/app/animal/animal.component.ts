@@ -3,7 +3,7 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { Animal, RootState } from 'src/mockup';
 import { chooseAnimal, fetchAnimals } from '../store/animal/animal.action';
-import { selectAnimals, tmpSelector } from '../store/animal/animal.reducer';
+import { selectAnimals, tmpSelector } from '../store/animal/animal.selector';
 
 @Component({
   selector: 'app-animal',
@@ -29,7 +29,6 @@ export class AnimalComponent implements OnInit {
   }
 
   selectAnimal(target: string) {
-    // console.log(target)
     this.store.dispatch(chooseAnimal({ getValue: target }));
   }
 }

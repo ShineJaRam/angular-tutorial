@@ -32,16 +32,3 @@ const _animalReducer = createReducer(
 export const animalReducer = (state: any, action: any) => {
   return _animalReducer(state, action);
 };
-
-const { selectAll, selectEntities, selectIds, selectTotal } =
-  adapter.getSelectors();
-
-export const selectAnimals = createSelector(
-  (state: RootState) => state.animal,
-  selectAll
-);
-
-export const tmpSelector = createSelector(
-  (state: RootState) => state.animal,
-  animal => animal.selectedAnimal
-);
