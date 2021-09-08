@@ -1,8 +1,5 @@
 <div *ngFor="let marvelHero of marvelHeroes$ | async">
-  <div
-    (click)="selectHero(marvelHero.name)"
-    style="cursor: pointer; margin: 10px 0px"
-  >
+  <div class="hero-item" (click)="selectHero(marvelHero.name)">
     {{ marvelHero.name }}
   </div>
 </div>

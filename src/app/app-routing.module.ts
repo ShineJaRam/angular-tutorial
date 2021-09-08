@@ -7,7 +7,7 @@ import { UserComponent } from './user/user.component';
 import { AnimalComponent } from './animal/animal.component';
 import { MarvelComponent } from './marvel/marvel.component';
 import { AuthGuard } from './auth/auth.guard';
-import { HeroResolve } from './resolve/hero.resolve';
+import { DashboardHeroResolve } from './resolve/hero.resolve';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -15,7 +15,7 @@ const routes: Routes = [
     path: 'dashboard',
     component: DashboardComponent,
     resolve: {
-      hero: HeroResolve,
+      hero: DashboardHeroResolve,
     },
   },
   { path: 'detail/:id', component: HeroDetailComponent },

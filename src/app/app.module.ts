@@ -22,7 +22,6 @@ import { AnimalComponent } from './animal/animal.component';
 import { animalReducer } from './store/animal/animal.reducer';
 import { MarvelComponent } from './marvel/marvel.component';
 import { marvelHeroReducer } from './store/marvel/marvel.reducer';
-import { HeroResolve } from './resolve/hero.resolve';
 import { HeroService } from './hero.service';
 
 @NgModule({
@@ -59,6 +58,7 @@ import { HeroService } from './hero.service';
     }),
     StoreRouterConnectingModule.forRoot(),
   ],
+  providers: [HeroService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

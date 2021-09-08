@@ -9,7 +9,7 @@ import { MessageService } from '../message.service';
 @Injectable({
   providedIn: 'root',
 })
-export class HeroResolve implements Resolve<Hero[]> {
+export class DashboardHeroResolve implements Resolve<Hero[]> {
   constructor(
     private heroService: HeroService,
     private messageService: MessageService

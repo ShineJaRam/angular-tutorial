@@ -6,9 +6,7 @@ import { MessageService } from './message.service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { catchError, map, tap } from 'rxjs/operators';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class HeroService {
   constructor(
     private http: HttpClient,
@@ -77,8 +75,8 @@ export class HeroService {
     }
 
     return this.http.get<Hero[]>(`${this.heroesUrl}/?name=${term}`).pipe(
-      tap(x =>
-        x.length
+      tap(hero =>
+        hero.length
           ? this.log(`found heroes matching "${term}"`)
           : this.log(`no heroes matching "${term}"`)
       ),
@@ -96,7 +94,7 @@ export class HeroService {
     return (error: any): Observable<T> => {
       console.error(error);
       this.log(`${operation} failed: ${error.message}`);
-      return of(result as T);
+      return of<T>(result);
     };
   }
 }

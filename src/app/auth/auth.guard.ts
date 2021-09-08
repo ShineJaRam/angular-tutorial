@@ -12,24 +12,20 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class AuthGuard implements CanActivate {
-  UserLogin: boolean = true;
+  isUserLogin = true;
 
   constructor(private router: Router) {}
 
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
-  ):
-    | Observable<boolean | UrlTree>
-    | Promise<boolean | UrlTree>
-    | boolean
-    | UrlTree {
+  ): boolean | UrlTree {
     console.log('AuthGuard Called');
-    if (this.UserLogin) {
+    console.log(this.isUserLogin);
+    if (this.isUserLogin) {
       return true;
     }
 
-    this.router.navigate(['/users']);
-    return false;
+    return this.router.createUrlTree(['/users']);
   }
 }
