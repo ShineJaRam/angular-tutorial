@@ -1,6 +1,6 @@
-import { createReducer, createSelector, on, State } from '@ngrx/store';
+import { createReducer, on } from '@ngrx/store';
 import { createEntityAdapter, EntityAdapter, EntityState } from '@ngrx/entity';
-import { Animal, animals, RootState } from 'src/mockup';
+import { Animal, animals } from 'src/mockup';
 import { chooseAnimal, fetchAnimals } from './animal.action';
 
 export interface SelectedAnimal extends EntityState<Animal> {
@@ -21,7 +21,6 @@ const _animalReducer = createReducer(
     return adapter.setAll(animals, state);
   }),
   on(chooseAnimal, (state, { getValue }) => {
-    // return adapter.setAll(animals, {...state, selectedAnimal: getValue})
     return {
       ...state,
       selectedAnimal: getValue,
