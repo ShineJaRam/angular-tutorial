@@ -20,6 +20,8 @@ import { userReducer } from './store/user/user.reducer';
 import { UserComponent } from './user/user.component';
 import { AnimalComponent } from './animal/animal.component';
 import { animalReducer } from './store/animal/animal.reducer';
+import { MarvelComponent } from './marvel/marvel.component';
+import { marvelHeroReducer } from './store/marvel/marvel.reducer';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { animalReducer } from './store/animal/animal.reducer';
     HeroSearchComponent,
     UserComponent,
     AnimalComponent,
+    MarvelComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,6 +47,7 @@ import { animalReducer } from './store/animal/animal.reducer';
       count: counterReducer,
       user: userReducer,
       animal: animalReducer,
+      marvel: marvelHeroReducer,
     }),
     StoreDevtoolsModule.instrument({
       name: '앵귤러 튜토리얼',
