@@ -7,10 +7,19 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { StoreModule } from '@ngrx/store';
+import { counterReducer } from './store/counter/counter.reducer';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { environment } from '../environments/environment';
+import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
+import { userReducer } from './store/user/user.reducer';
+import { UserComponent } from './user/user.component';
+import { AnimalComponent } from './animal/animal.component';
+import { animalReducer } from './store/animal/animal.reducer';
 
 @NgModule({
   declarations: [
@@ -19,17 +28,31 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    UserComponent,
+    AnimalComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false }
-    )
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
+      dataEncapsulation: false,
+    }),
+    StoreModule.forRoot({
+      count: counterReducer,
+      user: userReducer,
+      animal: animalReducer,
+    }),
+    StoreDevtoolsModule.instrument({
+      name: '앵귤러 튜토리얼',
+      maxAge: 5,
+      logOnly: environment.production,
+      autoPause: true,
+    }),
+    StoreRouterConnectingModule.forRoot(),
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

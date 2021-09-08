@@ -1,13 +1,38 @@
 {
   "name": "angular-tour-of-heroes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "prepare": "husky install",
+    "version": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "rules": {
+      "subject-case": [
+        0,
+        "never"
+      ]
+    },
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{ts,html,scss}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "private": true,
   "dependencies": {
@@ -19,6 +44,11 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "@ngrx/effects": "^12.4.0",
+    "@ngrx/entity": "^12.4.0",
+    "@ngrx/router-store": "^12.4.0",
+    "@ngrx/store": "^12.4.0",
+    "@ngrx/store-devtools": "^12.4.0",
     "angular-in-memory-web-api": "^0.11.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
@@ -54,6 +84,7 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
+    "standard-version": "^9.3.1",
     "typescript": "~4.3.5"
   }
 }
