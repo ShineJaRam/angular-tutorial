@@ -1,1 +1,8 @@
-<p>marvel works!</p>
+<div *ngFor="let marvelHero of marvelHeroes$ | async">
+  <div
+    (click)="selectHero(marvelHero.name)"
+    style="cursor: pointer; margin: 10px 0px"
+  >
+    {{ marvelHero.name }}
+  </div>
+</div>
