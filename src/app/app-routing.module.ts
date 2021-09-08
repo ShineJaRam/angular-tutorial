@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HeroesComponent } from './heroes/heroes.component';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { UserComponent } from './user/user.component';
-import { AnimalComponent } from './animal/animal.component';
-import { MarvelComponent } from './marvel/marvel.component';
-import { AuthGuard } from './auth/auth.guard';
+import { DashboardComponent } from './modules/dashboard/dashboard.component';
+import { HeroesComponent } from './modules/heroes/heroes.component';
+import { HeroDetailComponent } from './modules/hero-detail/hero-detail.component';
+import { UserComponent } from './modules/user/user.component';
+import { AnimalComponent } from './modules/animal/animal.component';
+import { MarvelComponent } from './modules/marvel/marvel.component';
+import { AuthGuard } from './modules/auth/auth.guard';
 import { DashboardHeroResolve } from './resolve/hero.resolve';
 
 const routes: Routes = [

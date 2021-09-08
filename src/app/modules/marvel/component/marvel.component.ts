@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { MarvelHero, RootState } from 'src/mockup';
-import { chooseHero, fetchHeroes } from '../store/marvel/marvel.action';
+import { chooseHero, fetchHeroes } from '../../../store/marvel/marvel.action';
 import {
   selectMarvelHeroes,
   tmpSelector,
-} from '../store/marvel/marvel.selector';
+} from '../../../store/marvel/marvel.selector';
 
 @Component({
   selector: 'app-marvel',

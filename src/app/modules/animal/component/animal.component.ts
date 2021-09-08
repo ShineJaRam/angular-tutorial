@@ -2,8 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { Animal, RootState } from 'src/mockup';
-import { chooseAnimal, fetchAnimals } from '../store/animal/animal.action';
-import { selectAnimals, tmpSelector } from '../store/animal/animal.selector';
+import {
+  chooseAnimal,
+  fetchAnimals,
+} from '../../../store/animal/animal.action';
+import {
+  selectAnimals,
+  tmpSelector,
+} from '../../../store/animal/animal.selector';
 
 @Component({
   selector: 'app-animal',

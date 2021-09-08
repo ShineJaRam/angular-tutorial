@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { Item } from 'src/mockup';
-import { fetchUsers } from '../store/user/user.actions';
-import { User } from '../store/user/user.reducer';
-import { selectUsers } from '../store/user/user.selector';
+import { fetchUsers } from '../../../store/user/user.actions';
+import { User } from '../../../store/user/user.reducer';
+import { selectUsers } from '../../../store/user/user.selector';
 
 @Component({
   selector: 'app-user',
