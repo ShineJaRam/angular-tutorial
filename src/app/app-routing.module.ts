@@ -3,16 +3,20 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { UserComponent } from './user/user.component';
+import { AnimalComponent } from './animal/animal.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: "/dashboard", pathMatch: "full"},
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
-  { path: 'heroes', component: HeroesComponent},
+  { path: 'heroes', component: HeroesComponent },
+  { path: 'users', component: UserComponent },
+  { path: 'animal', component: AnimalComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

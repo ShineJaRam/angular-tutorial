@@ -1,0 +1,4173 @@
+{
+  "agreement": { "telemedicine": true },
+  "items": [
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "내과",
+      "memo": " ",
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": true,
+      "useKiosk": true,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 1,
+      "active": true,
+      "key": "주윤식 원장님",
+      "title": "주윤식 원장님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "06:00",
+          "endTime": "20:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "06:00",
+          "endTime": "20:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "06:00",
+          "endTime": "20:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "06:00",
+          "endTime": "20:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "06:00",
+          "endTime": "20:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": "10:00", "endTime": "12:30" },
+          "dinner": { "startTime": "10:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "20:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "15:30", "endTime": "16:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "00:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "00:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 33,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "01:00",
+        "useTodayBooking": { "use": true, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차가나다라마"
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "소아청소년과",
+      "memo": "모바일 진료실 공지",
+      "reservationMemo": "",
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": true,
+      "useKiosk": true,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 2,
+      "active": true,
+      "key": "박철우 원장님",
+      "title": "박철우 선생님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "13:00" },
+          "dinner": { "startTime": "18:00", "endTime": "19:00" },
+          "startTime": "10:00",
+          "endTime": "20:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": "00:00", "endTime": "00:00" },
+          "dinner": { "startTime": "18:00", "endTime": "19:00" },
+          "startTime": "10:00",
+          "endTime": "20:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "13:00" },
+          "dinner": { "startTime": "18:00", "endTime": "19:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "13:00" },
+          "dinner": { "startTime": "18:00", "endTime": "19:00" },
+          "startTime": "10:00",
+          "endTime": "19:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "13:00" },
+          "dinner": { "startTime": "18:00", "endTime": "19:00" },
+          "startTime": "10:00",
+          "endTime": "19:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "10:00",
+          "endTime": "14:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": "11:00", "endTime": "12:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "10:00",
+          "endTime": "16:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "11:20", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "13:00",
+        "useTodayBooking": { "use": true, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 30 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "가정의학과",
+      "memo": "가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차가나다라마바사아자차",
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": false,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": true,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": "2021-05-27T06:06:43.016Z",
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 3,
+      "active": true,
+      "key": "윤태성 원장님",
+      "title": "윤태성 선생님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "10:00",
+          "endTime": "16:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "00:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "피부과",
+      "memo": null,
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": true,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 4,
+      "active": true,
+      "key": "황기수 원장님",
+      "title": "황기수 선생님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": "13:00", "endTime": "14:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "08:00",
+          "endTime": "18:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": "13:00", "endTime": "14:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "08:00",
+          "endTime": "18:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": "13:00", "endTime": "14:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "08:00",
+          "endTime": "18:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": "13:00", "endTime": "14:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "08:00",
+          "endTime": "18:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "08:00",
+          "endTime": "14:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "17:30", "endTime": "18:00" },
+          "startTime": "",
+          "endTime": "",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "10:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "비뇨기과",
+      "memo": null,
+      "reservationMemo": "공지사항입니다.",
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": false,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 5,
+      "active": true,
+      "key": "박명수 원장님",
+      "title": "박명수 선생님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "00:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "일반의원",
+      "memo": "접수하지 말아주세요 피곤해요",
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": false,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": ["RECEIPT"],
+      "orderNo": 6,
+      "active": true,
+      "key": "양희창 원장님",
+      "title": "양희창 원장님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "13:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": "13:00", "endTime": "14:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "11:00",
+          "endTime": "18:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "00:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "정형외과",
+      "memo": null,
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": true,
+      "useSelfDesk": false,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 7,
+      "active": true,
+      "key": "김민정 원장님",
+      "title": "김민정 선생님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:30", "endTime": "14:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "08:27",
+          "endTime": "18:30",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:30", "endTime": "14:00" },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "10:00",
+          "endTime": "18:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "12:00",
+          "endTime": "18:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": "10:00",
+          "endTime": "14:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "00:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "이비인후과",
+      "memo": null,
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": true,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 8,
+      "active": true,
+      "key": "한혜경 원장님",
+      "title": "한혜경 선생님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:30", "endTime": "14:00" },
+          "dinner": { "startTime": "00:00", "endTime": "00:00" },
+          "startTime": "08:30",
+          "endTime": "18:30",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:30", "endTime": "14:00" },
+          "dinner": { "startTime": "00:00", "endTime": "00:00" },
+          "startTime": "08:30",
+          "endTime": "18:30",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:30", "endTime": "14:00" },
+          "dinner": { "startTime": "00:00", "endTime": "00:00" },
+          "startTime": "08:30",
+          "endTime": "18:30",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:30", "endTime": "14:00" },
+          "dinner": { "startTime": "00:00", "endTime": "00:00" },
+          "startTime": "08:30",
+          "endTime": "18:30",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": "12:30", "endTime": "14:00" },
+          "dinner": { "startTime": "00:00", "endTime": "00:00" },
+          "startTime": "08:30",
+          "endTime": "18:30",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": "00:00", "endTime": "00:00" },
+          "dinner": { "startTime": "00:00", "endTime": "00:00" },
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": false,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": "00:00", "endTime": "00:00" },
+          "dinner": { "startTime": "00:00", "endTime": "00:00" },
+          "startTime": "00:00",
+          "endTime": "00:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": "00:00", "endTime": "00:00" },
+          "dinner": { "startTime": "00:00", "endTime": "00:00" },
+          "startTime": "00:00",
+          "endTime": "00:00",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:10" },
+          "dinner": { "startTime": "18:00", "endTime": "18:10" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:10" },
+          "dinner": { "startTime": "18:00", "endTime": "18:10" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:10" },
+          "dinner": { "startTime": "18:00", "endTime": "18:10" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:10" },
+          "dinner": { "startTime": "18:00", "endTime": "18:10" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:10" },
+          "dinner": { "startTime": "18:00", "endTime": "18:10" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "00:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "내과",
+      "memo": "공지사항!!",
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": false,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 9,
+      "active": true,
+      "key": "진료실",
+      "title": "예비 진료실",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "00:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "진단검사의학과",
+      "memo": null,
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": false,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": true,
+      "receiptPauseMessage": "일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n일시정지 메시지\n",
+      "receiptPauseOnDate": "2021-05-24T08:16:08.777Z",
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "orderNo": 10,
+      "active": true,
+      "key": "진료실이름이열다섯자",
+      "title": "진료실이름이열다섯자인경우입니",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "00:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    },
+    {
+      "paymentEnv": { "receipt": true, "reservation": true },
+      "subject": "",
+      "memo": null,
+      "reservationMemo": null,
+      "treatWaiting": 0,
+      "reserveCountPerHalfHour": 0,
+      "useReceipt": true,
+      "useReservation": false,
+      "useSelfDesk": false,
+      "useKiosk": false,
+      "usePhysicalConditions": "NOT_USE",
+      "useAvgWaitTime": false,
+      "avgWaitTime": 0,
+      "receiptPause": false,
+      "receiptPauseMessage": "",
+      "receiptPauseOnDate": null,
+      "kioskPause": false,
+      "kioskPauseMessage": "",
+      "kioskPauseOnDate": null,
+      "useMedicalQuestionnaire": [],
+      "active": true,
+      "key": "노영빈대표원장님",
+      "title": "노영빈대표원장님",
+      "weeklyReceiptSchedule": {
+        "monday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "tuesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "wednesday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "thursday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "friday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "saturday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": "00:00",
+          "endTime": "23:59",
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": false,
+          "isOfflineOff": false
+        },
+        "sunday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        },
+        "holiday": {
+          "lunch": { "startTime": "12:00", "endTime": "12:30" },
+          "dinner": { "startTime": "19:00", "endTime": "20:00" },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": true,
+          "hasDinnerBreak": true,
+          "isDayOff": true,
+          "isOfflineOff": false
+        }
+      },
+      "weeklyReservationSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyKioskSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "weeklyTabletSchedule": {
+        "monday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "tuesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "wednesday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "thursday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "friday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "saturday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "sunday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        },
+        "holiday": {
+          "lunch": { "startTime": null, "endTime": null },
+          "dinner": { "startTime": null, "endTime": null },
+          "startTime": null,
+          "endTime": null,
+          "hasLunchBreak": false,
+          "hasDinnerBreak": false,
+          "isDayOff": true,
+          "isOfflineOff": true
+        }
+      },
+      "reservationEnv": {
+        "maxTerm": 7,
+        "reserveIntervalCount": 1,
+        "avgHoursTreatment": 0,
+        "scheduleOpenTime": "00:00",
+        "useTodayBooking": { "use": false, "afterMinutes": 0 },
+        "autoCancel": { "use": true, "delayTime": 10 },
+        "currentTimeUnit": 0
+      },
+      "telemedicineEnv": {
+        "receipt": true,
+        "reservation": true,
+        "visitType": ["PHONE", "VIDEO"],
+        "payType": ["ONSITE", "TRANSFER"],
+        "phone": "121234",
+        "account": {
+          "bank": "경남은행",
+          "holder": "테스트예금주",
+          "number": "09876"
+        }
+      },
+      "paperEnv": { "receipt": false, "reservation": false },
+      "tabletPause": false,
+      "tabletPauseMessage": "",
+      "tabletPauseOnDate": null
+    }
+  ],
+  "totalCount": 11
+}

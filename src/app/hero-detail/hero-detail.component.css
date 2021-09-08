@@ -22,3 +22,6 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
+.count{
+  margin-top: 20px;
+}

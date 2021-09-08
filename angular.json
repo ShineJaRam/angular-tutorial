@@ -113,6 +113,7 @@
   },
   "defaultProject": "angular-tour-of-heroes",
   "cli": {
+    "analytics": "5dfa8f2f-e213-4d5d-8652-65daa93e67a8",
     "defaultCollection": "@angular-eslint/schematics"
   }
 }
