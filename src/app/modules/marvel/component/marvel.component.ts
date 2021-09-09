@@ -15,19 +15,15 @@ import {
 })
 export class MarvelComponent implements OnInit {
   marvelHeroes$: Observable<MarvelHero[]>;
-  tmpHero: Observable<string>;
+  tmpHero$: Observable<string>;
 
   constructor(private store: Store<RootState>) {
     this.marvelHeroes$ = this.store.select(selectMarvelHeroes);
-    this.marvelHeroes$.subscribe(hero => {
-      console.log(hero);
-    });
-    this.tmpHero = this.store.select(tmpSelector);
+    this.tmpHero$ = this.store.select(tmpSelector);
   }
 
   ngOnInit(): void {
     this.store.dispatch(fetchHeroes());
-    this.tmpHero.subscribe(console.log);
   }
 
   selectHero(value: string) {

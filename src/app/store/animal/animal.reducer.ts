@@ -4,7 +4,7 @@ import { Animal, animals } from 'src/mockup';
 import { chooseAnimal, fetchAnimals } from './animal.action';
 
 export interface SelectedAnimal extends EntityState<Animal> {
-  selectedAnimal: string | null;
+  selectedAnimal: string;
 }
 
 export const adapter: EntityAdapter<Animal> = createEntityAdapter<Animal>({
@@ -15,7 +15,7 @@ export const initialState: SelectedAnimal = adapter.getInitialState({
   selectedAnimal: animals[0].name,
 });
 
-const _animalReducer = createReducer(
+export const animalReducer = createReducer(
   initialState,
   on(fetchAnimals, state => {
     return adapter.setAll(animals, state);
@@ -27,7 +27,3 @@ const _animalReducer = createReducer(
     };
   })
 );
-
-export const animalReducer = (state: any, action: any) => {
-  return _animalReducer(state, action);
-};

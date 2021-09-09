@@ -4,10 +4,10 @@ import { HeroDetailComponent } from './component/hero-detail.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-const COMPONRNTS = [HeroDetailComponent];
+const COMPONENTS = [HeroDetailComponent];
 
 @NgModule({
-  declarations: COMPONRNTS,
+  declarations: COMPONENTS,
   imports: [
     CommonModule,
     FormsModule,

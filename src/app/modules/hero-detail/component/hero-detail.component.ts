@@ -17,7 +17,7 @@ import {
   styleUrls: ['./hero-detail.component.css'],
 })
 export class HeroDetailComponent implements OnInit {
-  hero: Hero | undefined;
+  hero?: Hero;
   count$: Observable<number>;
 
   constructor(
@@ -34,12 +34,20 @@ export class HeroDetailComponent implements OnInit {
   }
 
   getHero(): void {
-    const id = Number(this.route.snapshot.paramMap.get('id'));
+    const params =
+      this.route.snapshot.paramMap.get('id') === null
+        ? 11
+        : this.route.snapshot.paramMap.get('id');
+    const id = Number(params);
     this.heroService.getHero(id).subscribe(hero => (this.hero = hero));
   }
 
   goBack(): void {
     this.location.back();
+  }
+
+  onChangeName(value: string): void {
+    this.hero.name = value;
   }
 
   save(): void {

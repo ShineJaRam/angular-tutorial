@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HeroSearchComponent } from './components/hero-search/hero-search.component';
 import { RouterModule } from '@angular/router';
+import { DashboardHeroResolve } from '../../resolve/hero.resolve';
 
 const COMPONENTS = [DashboardComponent, HeroSearchComponent];
 
@@ -14,6 +15,9 @@ const COMPONENTS = [DashboardComponent, HeroSearchComponent];
       {
         path: '',
         component: DashboardComponent,
+        resolve: {
+          hero: DashboardHeroResolve,
+        },
       },
     ]),
   ],

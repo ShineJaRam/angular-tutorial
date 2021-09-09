@@ -4,7 +4,7 @@ import { animals, MarvelHero, marvelHeroes } from 'src/mockup';
 import { chooseHero, fetchHeroes } from './marvel.action';
 
 export interface selectedHeroes extends EntityState<MarvelHero> {
-  selectedHero: string | null;
+  selectedHero: string;
 }
 
 export const adapter: EntityAdapter<MarvelHero> =
@@ -16,7 +16,7 @@ export const initialState: selectedHeroes = adapter.getInitialState({
   selectedHero: marvelHeroes[0].name,
 });
 
-const _marvelHeroReducer = createReducer(
+export const marvelHeroReducer = createReducer(
   initialState,
   on(fetchHeroes, state => {
     return adapter.setAll(marvelHeroes, state);
@@ -28,7 +28,3 @@ const _marvelHeroReducer = createReducer(
     };
   })
 );
-
-export const marvelHeroReducer = (state: any, action: any) => {
-  return _marvelHeroReducer(state, action);
-};

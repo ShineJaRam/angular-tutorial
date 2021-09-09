@@ -26,10 +26,9 @@ export class DashboardHeroResolve implements Resolve<Hero[]> {
   }
 
   private handleError<T>(operation = 'operation', result?: T) {
-    return (error: any): Observable<T> => {
-      console.error(error);
+    return (error: any): Observable<T | undefined> => {
       this.log(`${operation} failed: ${error.message}`);
-      return of(result as T);
+      return of<T | undefined>(result);
     };
   }
 }

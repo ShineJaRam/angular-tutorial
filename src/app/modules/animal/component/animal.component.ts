@@ -18,20 +18,16 @@ import {
 })
 export class AnimalComponent implements OnInit {
   animals$: Observable<Animal[]>;
-  tmpAnimal: Observable<string>;
+  tmpAnimal$: Observable<string>;
 
   constructor(private store: Store<RootState>) {
     this.animals$ = this.store.select(selectAnimals);
-    this.animals$.subscribe(animal => {
-      console.log(animal);
-    });
-
-    this.tmpAnimal = this.store.select(tmpSelector);
+    this.tmpAnimal$ = this.store.select(tmpSelector);
   }
 
   ngOnInit(): void {
     this.store.dispatch(fetchAnimals());
-    this.tmpAnimal.subscribe(console.log);
+    console.log(typeof this.tmpAnimal$, typeof this.store.select(tmpSelector));
   }
 
   selectAnimal(target: string) {

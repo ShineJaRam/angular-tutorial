@@ -19,7 +19,6 @@ export class UserComponent implements OnInit {
     this.users$ = this.store.select(selectUsers);
 
     this.users$.subscribe(users => {
-      console.log(users);
       this.users = [...users];
     });
   }

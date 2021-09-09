@@ -15,13 +15,9 @@ export const initialState: User = adapter.getInitialState({
   selectedUser: null,
 });
 
-const _userReducer = createReducer(
+export const userReducer = createReducer(
   initialState,
   on(fetchUsers, state => {
     return adapter.setAll(items, state);
   })
 );
-
-export function userReducer(state: any, action: any) {
-  return _userReducer(state, action);
-}
