@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Resolve, ActivatedRouteSnapshot } from '@angular/router';
-import { HeroService } from '../hero.service';
+import { HeroService } from '../services/hero/hero.service';
 import { Hero } from '../hero';
 import { catchError } from 'rxjs/operators';
-import { MessageService } from '../message.service';
+import { MessageService } from '../services/message/message.service';
 
 @Injectable({
   providedIn: 'root',
