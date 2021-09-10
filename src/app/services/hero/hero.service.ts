@@ -27,7 +27,9 @@ export class HeroService {
         const outcome = h ? `fetched` : `did not found`;
         this.log(`${outcome} hero id=${id}`);
       }),
-      catchError(this.handleError<Hero>(`getHero id=${id}`))
+      catchError(
+        this.handleError<Hero>(`getHero id=${id}`, { id: 0, name: '' })
+      )
     );
   }
 
@@ -35,7 +37,9 @@ export class HeroService {
     const url = `${this.heroesUrl}/${id}`;
     return this.http.get<Hero>(url).pipe(
       tap(_ => this.log(`fetched hero id=${id}`)),
-      catchError(this.handleError<Hero>(`getHero id=${id}`))
+      catchError(
+        this.handleError<Hero>(`getHero id=${id}`, { id: 0, name: '' })
+      )
     );
   }
 
@@ -48,14 +52,14 @@ export class HeroService {
   updateHero(hero: Hero): Observable<any> {
     return this.http.put(this.heroesUrl, hero, this.httpOptions).pipe(
       tap(_ => this.log(`updated hero id=${hero.id}`)),
-      catchError(this.handleError<any>(`updateHero`))
+      catchError(this.handleError<any>(`updateHero`, { id: 0, name: '' }))
     );
   }
 
   addHero(hero: Pick<Hero, 'name'>): Observable<Hero> {
     return this.http.post<Hero>(this.heroesUrl, hero, this.httpOptions).pipe(
       tap((newHero: Hero) => this.log(`added hero w/ id=${newHero.id}`)),
-      catchError(this.handleError<Hero>('addHero'))
+      catchError(this.handleError<Hero>('addHero', { id: 0, name: '' }))
     );
   }
 
@@ -64,7 +68,7 @@ export class HeroService {
 
     return this.http.delete<Hero>(url, this.httpOptions).pipe(
       tap(_ => this.log(`delete hero id=${id}`)),
-      catchError(this.handleError<Hero>('deleteHero'))
+      catchError(this.handleError<Hero>('deleteHero', { id: 0, name: '' }))
     );
   }
 
@@ -89,10 +93,10 @@ export class HeroService {
 
   private heroesUrl = 'api/heroes';
 
-  private handleError<T>(operation = 'operation', result?: T) {
-    return (error: any): Observable<T | undefined> => {
+  private handleError<T>(operation = 'operation', result: T) {
+    return (error: any): Observable<T> => {
       this.log(`${operation} failed: ${error.message}`);
-      return of<T | undefined>(result);
+      return of<T>(result);
     };
   }
 }

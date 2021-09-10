@@ -25,10 +25,10 @@ export class DashboardHeroResolve implements Resolve<Hero[]> {
     this.messageService.add(`HeroService: ${message}`);
   }
 
-  private handleError<T>(operation = 'operation', result?: T) {
-    return (error: any): Observable<T | undefined> => {
+  private handleError<T>(operation = 'operation', result: T) {
+    return (error: any): Observable<T> => {
       this.log(`${operation} failed: ${error.message}`);
-      return of<T | undefined>(result);
+      return of<T>(result);
     };
   }
 }

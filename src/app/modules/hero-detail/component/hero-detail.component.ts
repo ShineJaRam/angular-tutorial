@@ -17,7 +17,7 @@ import {
   styleUrls: ['./hero-detail.component.css'],
 })
 export class HeroDetailComponent implements OnInit {
-  hero?: Hero;
+  hero: Hero;
   count$: Observable<number>;
 
   constructor(
@@ -26,6 +26,7 @@ export class HeroDetailComponent implements OnInit {
     private location: Location,
     private store: Store<{ count: number }>
   ) {
+    this.hero = { id: 0, name: '' };
     this.count$ = store.select('count');
   }
 

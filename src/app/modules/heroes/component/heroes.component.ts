@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Hero } from '../../../hero';
 import { HeroService } from '../../../services/hero/hero.service';
 
@@ -10,7 +10,14 @@ import { HeroService } from '../../../services/hero/hero.service';
 export class HeroesComponent implements OnInit {
   heroes: Hero[] = [];
 
-  constructor(private heroService: HeroService) {}
+  @ViewChild('heroName') heroName: ElementRef<HTMLInputElement>;
+
+  constructor(
+    private heroService: HeroService,
+    private heroNameElement: ElementRef<HTMLInputElement>
+  ) {
+    this.heroName = heroNameElement;
+  }
 
   ngOnInit() {
     this.getHeroes();
@@ -27,7 +34,7 @@ export class HeroesComponent implements OnInit {
     this.heroService.addHero({ name }).subscribe(hero => {
       this.heroes.push(hero);
     });
-    name = '';
+    this.heroName.nativeElement.value = '';
   }
 
   delete(selectedHero: Hero): void {
