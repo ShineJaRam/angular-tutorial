@@ -1,0 +1,9 @@
+<h1>template form 페이지</h1>
+<input
+  class="form-input"
+  type="text"
+  [ngModel]="testText"
+  (ngModelChange)="onValueChange($event)"
+/>
+<p>{{ testText }}</p>
+<p class="validation" *ngIf="testText.length === 0">메세지를 입력해주세요.</p>

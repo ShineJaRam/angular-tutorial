@@ -1,0 +1,11 @@
+.form-input {
+  display: inline-block;
+  width: 20%;
+  height: 20px;
+  padding: 5px;
+}
+
+.validation {
+  margin: 10px 0;
+  color: red;
+}

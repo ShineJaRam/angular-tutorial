@@ -1,0 +1,60 @@
+<h1>reactive form 페이지</h1>
+<form
+  class="my-form"
+  [formGroup]="reactiveForm"
+  (ngSubmit)="onSubmit(reactiveForm)"
+>
+  <div class="form-item">
+    <label>
+      Name:
+      <input class="form-input" formControlName="name" placeholder="name" />
+    </label>
+    <div
+      class="validation"
+      *ngIf="
+        reactiveForm.get('name')?.invalid &&
+        (reactiveForm.get('name')?.dirty || reactiveForm.get('name')?.touched)
+      "
+    >
+      이름을 입력하세요.
+    </div>
+  </div>
+  <div class="form-item">
+    <label>
+      Email:
+      <input class="form-input" formControlName="email" placeholder="email" />
+    </label>
+    <div
+      class="validation"
+      *ngIf="
+        reactiveForm.get('email')?.invalid &&
+        (reactiveForm.get('email')?.dirty || reactiveForm.get('email')?.touched)
+      "
+    >
+      정확한 이메일을 입력해주세요.
+    </div>
+  </div>
+  <div class="form-item">
+    <label>
+      Message:
+      <input
+        class="form-input"
+        formControlName="message"
+        placeholder="message"
+      />
+    </label>
+    <div
+      class="validation"
+      *ngIf="
+        reactiveForm.get('message')?.invalid &&
+        (reactiveForm.get('message')?.dirty ||
+          reactiveForm.get('message')?.touched)
+      "
+    >
+      메세지가 허용범위를 초과했습니다.
+    </div>
+  </div>
+  <button class="form-button" type="submit" [disabled]="reactiveForm.invalid">
+    Send
+  </button>
+</form>
