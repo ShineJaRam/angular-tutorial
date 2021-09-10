@@ -25,4 +25,12 @@ export class ReactiveFormComponent implements OnInit {
     console.log('Email', form.value.email);
     console.log('Message', form.value.message);
   }
+
+  onValidation(type: string): boolean | undefined {
+    return (
+      this.reactiveForm.get(type)?.invalid &&
+      (this.reactiveForm.get(type)?.dirty ||
+        this.reactiveForm.get(type)?.touched)
+    );
+  }
 }

@@ -9,13 +9,7 @@
       Name:
       <input class="form-input" formControlName="name" placeholder="name" />
     </label>
-    <div
-      class="validation"
-      *ngIf="
-        reactiveForm.get('name')?.invalid &&
-        (reactiveForm.get('name')?.dirty || reactiveForm.get('name')?.touched)
-      "
-    >
+    <div class="validation" *ngIf="onValidation('name')">
       이름을 입력하세요.
     </div>
   </div>
@@ -24,13 +18,7 @@
       Email:
       <input class="form-input" formControlName="email" placeholder="email" />
     </label>
-    <div
-      class="validation"
-      *ngIf="
-        reactiveForm.get('email')?.invalid &&
-        (reactiveForm.get('email')?.dirty || reactiveForm.get('email')?.touched)
-      "
-    >
+    <div class="validation" *ngIf="onValidation('email')">
       정확한 이메일을 입력해주세요.
     </div>
   </div>
@@ -43,14 +31,7 @@
         placeholder="message"
       />
     </label>
-    <div
-      class="validation"
-      *ngIf="
-        reactiveForm.get('message')?.invalid &&
-        (reactiveForm.get('message')?.dirty ||
-          reactiveForm.get('message')?.touched)
-      "
-    >
+    <div class="validation" *ngIf="onValidation('message')">
       메세지가 허용범위를 초과했습니다.
     </div>
   </div>
