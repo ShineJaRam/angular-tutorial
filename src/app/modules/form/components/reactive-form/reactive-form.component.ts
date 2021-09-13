@@ -7,10 +7,10 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./reactive-form.component.css'],
 })
 export class ReactiveFormComponent implements OnInit {
-  reactiveForm: FormGroup;
+  reactiveFormGroup: FormGroup;
 
   constructor(private fb: FormBuilder) {
-    this.reactiveForm = fb.group({
+    this.reactiveFormGroup = fb.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       message: ['', Validators.maxLength(15)],
@@ -28,9 +28,9 @@ export class ReactiveFormComponent implements OnInit {
 
   onValidation(type: string): boolean | undefined {
     return (
-      this.reactiveForm.get(type)?.invalid &&
-      (this.reactiveForm.get(type)?.dirty ||
-        this.reactiveForm.get(type)?.touched)
+      this.reactiveFormGroup.get(type)?.invalid &&
+      (this.reactiveFormGroup.get(type)?.dirty ||
+        this.reactiveFormGroup.get(type)?.touched)
     );
   }
 }

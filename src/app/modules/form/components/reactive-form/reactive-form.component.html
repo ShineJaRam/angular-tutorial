@@ -1,8 +1,8 @@
 <h1>reactive form 페이지</h1>
 <form
   class="my-form"
-  [formGroup]="reactiveForm"
-  (ngSubmit)="onSubmit(reactiveForm)"
+  [formGroup]="reactiveFormGroup"
+  (ngSubmit)="onSubmit(reactiveFormGroup)"
 >
   <div class="form-item">
     <label>
@@ -35,7 +35,11 @@
       메세지가 허용범위를 초과했습니다.
     </div>
   </div>
-  <button class="form-button" type="submit" [disabled]="reactiveForm.invalid">
+  <button
+    class="form-button"
+    type="submit"
+    [disabled]="reactiveFormGroup.invalid"
+  >
     Send
   </button>
 </form>
