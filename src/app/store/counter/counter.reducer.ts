@@ -4,13 +4,9 @@ import { createEntityAdapter, EntityAdapter, EntityState } from '@ngrx/entity';
 
 export const initialState = 0;
 
-const _counterReducer = createReducer(
+export const counterReducer = createReducer(
   initialState,
   on(increment, state => state + 1),
   on(decrement, state => state - 1),
   on(reset, state => 0)
 );
-
-export function counterReducer(state: any, action: any) {
-  return _counterReducer(state, action);
-}
