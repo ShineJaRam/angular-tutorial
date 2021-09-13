@@ -50,6 +50,11 @@ import { DashboardHeroResolve } from '../resolve/hero.resolve';
         loadChildren: () =>
           import('./form/components/form.module').then(m => m.FormModule),
       },
+      {
+        path: 'directive',
+        loadChildren: () =>
+          import('./directive/directive.module').then(m => m.DirectiveModule),
+      },
     ]),
   ],
   providers: [],
