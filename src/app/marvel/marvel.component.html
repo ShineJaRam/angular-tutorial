@@ -1,1 +1,5 @@
-<p>marvel works!</p>
+<div *ngFor="let marvelHero of marvelHeroes$ | async">
+  <div class="hero-item" (click)="selectHero(marvelHero.name)">
+    {{ marvelHero.name }}
+  </div>
+</div>
