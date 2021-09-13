@@ -11,7 +11,7 @@
 <div>
   <h2>Custom Pipe Example</h2>
   <input type="number" [formControl]="defaultNumber" />
-  <input type='"number' [formControl]="degreeOfSquare" />
+  <input type="number" [formControl]="degreeOfSquare" />
   <p>
     {{ defaultNumber.value }}를 {{ degreeOfSquare.value }}번 제곱하면,
     {{ defaultNumber.value | squaredNumber: degreeOfSquare.value | number }}
