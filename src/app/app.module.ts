@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
@@ -16,6 +16,8 @@ import { animalReducer } from './store/animal/animal.reducer';
 import { marvelHeroReducer } from './store/marvel/marvel.reducer';
 import { HeroService } from './services/hero/hero.service';
 import { MessagesComponent } from './messages/messages.component';
+import { registerLocaleData } from '@angular/common';
+import localeKo from '@angular/common/locales/ko';
 
 @NgModule({
   declarations: [AppComponent, MessagesComponent],
@@ -41,7 +43,11 @@ import { MessagesComponent } from './messages/messages.component';
     }),
     StoreRouterConnectingModule.forRoot(),
   ],
-  providers: [HeroService],
+  providers: [HeroService, { provide: LOCALE_ID, useValue: 'ko' }],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {
+    registerLocaleData(localeKo);
+  }
+}
