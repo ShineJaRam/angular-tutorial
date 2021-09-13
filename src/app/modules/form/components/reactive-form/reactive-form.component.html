@@ -1,9 +1,5 @@
 <h1>reactive form 페이지</h1>
-<form
-  class="my-form"
-  [formGroup]="reactiveFormGroup"
-  (ngSubmit)="onSubmit(reactiveFormGroup)"
->
+<form class="my-form" [formGroup]="reactiveFormGroup">
   <div class="form-item">
     <label>
       Name:
@@ -38,6 +34,7 @@
   <button
     class="form-button"
     type="submit"
+    (click)="onSubmit(reactiveFormGroup)"
     [disabled]="reactiveFormGroup.invalid"
   >
     Send
