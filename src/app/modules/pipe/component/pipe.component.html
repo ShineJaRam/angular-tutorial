@@ -1,0 +1,19 @@
+<div>
+  <h2>Date Pipe</h2>
+  <p>{{ birthDay | date: dateFormat }}</p>
+  <button (click)="toggleFormat()">Toggle Date</button>
+</div>
+<div>
+  <h2>DecimalPipe</h2>
+  <input type="number" [formControl]="decimalFormControl" />
+  <p>{{ decimalFormControl.value | number }}</p>
+</div>
+<div>
+  <h2>Custom Pipe Example</h2>
+  <input type="number" [formControl]="defaultNumber" />
+  <input type="number" [formControl]="degreeOfSquare" />
+  <p>
+    {{ defaultNumber.value }}를 {{ degreeOfSquare.value }}번 제곱하면,
+    {{ defaultNumber.value | squaredNumber: degreeOfSquare.value | number }}
+  </p>
+</div>

@@ -1,8 +1,0 @@
-<app-hero-search></app-hero-search>
-<h2>Top Heores</h2>
-<div class="count">Current Count: {{ count$ | async }}</div>
-<div class="heroes-menu">
-  <a *ngFor="let hero of heroes" routerLink="/detail/{{ hero.id }}">
-    {{ hero.name }}
-  </a>
-</div>

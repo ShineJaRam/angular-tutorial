@@ -1,0 +1,63 @@
+<div class="directive-box" [ngClass]="currentClasses">
+  directive works!
+  <br />
+  <h2>
+    {{ currentClasses.fire ? 'true' : 'false' }}
+  </h2>
+  <br />
+  <h2>
+    {{ currentClasses.water ? '참' : '거짓' }}
+  </h2>
+  <br />
+  <h2>
+    {{ currentClasses.wind ? '트루' : '펄스' }}
+  </h2>
+  <button
+    class="directive-button"
+    [ngStyle]="currentStyled.fire"
+    (click)="changeClasses('fire'); changeStyled('fire')"
+  >
+    save button
+  </button>
+  <button
+    class="directive-button"
+    [ngStyle]="currentStyled.water"
+    (click)="changeClasses('water'); changeStyled('water')"
+  >
+    water button
+  </button>
+  <button
+    class="directive-button"
+    [ngStyle]="currentStyled.wind"
+    (click)="changeClasses('wind'); changeStyled('wind')"
+  >
+    special button
+  </button>
+</div>
+<div class="custom-directive-box">
+  <label for="green">
+    <input
+      id="green"
+      type="radio"
+      name="colors"
+      (click)="selectedColor = 'lightgreen'"
+    />Green
+  </label>
+  <label for="yellow">
+    <input
+      id="yellow"
+      type="radio"
+      name="colors"
+      (click)="selectedColor = 'yellow'"
+    />Yellow
+  </label>
+  <label for="cyan">
+    <input
+      id="cyan"
+      type="radio"
+      name="colors"
+      (click)="selectedColor = 'cyan'"
+    />Cyan
+  </label>
+  <p [appDirective]="selectedColor">Highlight Me!</p>
+</div>

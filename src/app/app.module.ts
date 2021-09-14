@@ -1,40 +1,26 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { HeroesComponent } from './heroes/heroes.component';
-import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
-import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './store/counter/counter.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
 import { userReducer } from './store/user/user.reducer';
-import { UserComponent } from './user/user.component';
-import { AnimalComponent } from './animal/animal.component';
 import { animalReducer } from './store/animal/animal.reducer';
-import { MarvelComponent } from './marvel/marvel.component';
 import { marvelHeroReducer } from './store/marvel/marvel.reducer';
+import { HeroService } from './services/hero/hero.service';
+import { MessagesComponent } from './messages/messages.component';
+import { registerLocaleData } from '@angular/common';
+import localeKo from '@angular/common/locales/ko';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeroesComponent,
-    HeroDetailComponent,
-    MessagesComponent,
-    DashboardComponent,
-    HeroSearchComponent,
-    UserComponent,
-    AnimalComponent,
-    MarvelComponent,
-  ],
+  declarations: [AppComponent, MessagesComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -57,6 +43,11 @@ import { marvelHeroReducer } from './store/marvel/marvel.reducer';
     }),
     StoreRouterConnectingModule.forRoot(),
   ],
+  providers: [HeroService, { provide: LOCALE_ID, useValue: 'ko' }],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {
+    registerLocaleData(localeKo);
+  }
+}

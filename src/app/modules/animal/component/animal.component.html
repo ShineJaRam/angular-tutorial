@@ -1,0 +1,5 @@
+<div *ngFor="let animal of animals$ | async">
+  <div class="animal-item" (click)="selectAnimal(animal.name)">
+    {{ animal.name }}
+  </div>
+</div>
