@@ -55,6 +55,11 @@ import { DashboardHeroResolve } from '../resolve/hero.resolve';
         loadChildren: () =>
           import('./directive/directive.module').then(m => m.DirectiveModule),
       },
+      {
+        path: 'pipe',
+        loadChildren: () =>
+          import('./pipe/pipe.module').then(m => m.PipeModule),
+      },
     ]),
   ],
   providers: [],
